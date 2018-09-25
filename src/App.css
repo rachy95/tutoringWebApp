@@ -1,0 +1,124 @@
+.Main-page, .App-container {
+  text-align: center;
+}
+
+form{
+  display: inline-block;
+  padding: 20px;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+  margin-top: 80px;
+  border-radius: 50%;
+  text-align: center;
+}
+
+.Main-page-text{
+  padding-top: 40px;
+}
+.Main-page-button{
+  padding: 50px;
+}
+
+.App-header {
+  height: 150px;
+  padding: 20px;
+  color:#4C00CD;
+}
+
+.availability-button-text{
+  display: block;
+}
+
+.no-tutors-available-span{
+  font-style: italic;
+  font-size: 12px;
+  color: #4C00CD;
+}
+.inline-logo{
+  display: block;
+  width: 22px;
+  height: 22px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+table, tr, td{
+  border: 1px solid black;
+}
+
+.availability-table{
+  display: table;
+  border-collapse: separate;
+  border-spacing: 2px;
+}
+th, td {
+  padding: 15px;
+  text-align: center;
+}
+
+.App-container .availabilty-button-style{
+  text-align: center;
+  border-color: #4C00CD;
+  color: #4C00CD;
+  background-color: white;
+  border-radius: 15px; 
+  height: auto;
+  width: 180px;
+}
+
+#tutor_btn, #student_btn, .App-container button{
+  color: white;
+  display: block;
+  border-radius: 15px; 
+  height: 40px;
+  width: 300px;
+  font-size: 13px;
+  background-color: #4C00CD;
+}
+
+button:disabled{
+  background-color: gray;
+  color: #4C00CD;
+}
+.input-fields{
+  display: block;
+  color: #3F51B5;
+  border-radius: 15px;
+  margin-bottom: 20px;
+  height: 40px;
+  width: 300px;
+  font-family:serif; 
+  font-size: 14px;
+  border: 1px solid #4C00CD;
+}
+
+input::-webkit-input-placeholder {
+  color: #3F51B5;
+  font-family:serif; 
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 13px;
+}
+
+.display-tutors-page{
+  padding: 20px;
+}
+
+.display-tutors-page #backButtonDiv{
+  padding: 10px;
+}
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
